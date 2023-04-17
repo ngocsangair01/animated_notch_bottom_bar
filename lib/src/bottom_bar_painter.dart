@@ -13,7 +13,7 @@ class BottomBarPainter extends CustomPainter {
       : _paint = Paint()
           ..color = color
           ..isAntiAlias = true,
-        _shadowColor = Colors.grey.shade600,
+        _shadowColor = Color.fromRGBO(68, 199, 179, 1),
         _notchPaint = Paint()
           ..color = notchColor
           ..isAntiAlias = true;
